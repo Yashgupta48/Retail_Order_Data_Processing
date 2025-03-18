@@ -3,13 +3,13 @@ This project combines Python and SQL to analyze retail order data and extract ke
 
 ---
 
-## 📌 Objective
+## Objective
 
 To perform end-to-end data analysis on retail orders and generate business intelligence reports using both Python (Pandas/Matplotlib) and SQL queries. The analysis reveals product performance, seasonal trends, and regional sales insights.
 
 ---
 
-## 🧠 Tools & Technologies
+##  Tools & Technologies
 
 - **Python**: Data processing & visualization
 - **Jupyter Notebook**: Interactive data analysis
@@ -21,11 +21,11 @@ To perform end-to-end data analysis on retail orders and generate business intel
 ---
 
 
-## 📊 Python Analysis Highlights
+##  Python Analysis Highlights
 
-📁 **File**: `Retail Order Data Processing.ipynb`
+ **File**: `Retail Order Data Processing.ipynb`
 
-### ✅ Key Steps:
+###  Key Steps:
 
 1. **Data Loading**  
    Load the retail order data using pandas.
@@ -45,11 +45,11 @@ To perform end-to-end data analysis on retail orders and generate business intel
 
 ## 🧾 SQL Business Insight Queries
 
-📁 **File**: `sql_code.sql`
+ **File**: `sql_code.sql`
 
 This file contains SQL queries that answer real business questions:
 
-### 🔝 1. Top 10 Revenue-Generating Products
+###  1. Top 10 Revenue-Generating Products
 
 ```sql
 SELECT TOP 10 product_id, SUM(sale_price) AS sales
@@ -58,7 +58,7 @@ GROUP BY product_id
 ORDER BY sales DESC;
 ```
 
-### 🌍 2. Top 5 Best-Selling Products by Region
+###  2. Top 5 Best-Selling Products by Region
 
 ```sql
 WITH cte AS (
@@ -74,7 +74,7 @@ FROM (
 WHERE rn <= 5;
 ```
 
-### 📅 3. Month-over-Month Sales Growth (2022 vs 2023)
+###  3. Month-over-Month Sales Growth (2022 vs 2023)
 
 ```sql
 WITH cte AS (
@@ -92,7 +92,7 @@ GROUP BY order_month;
 
 ---
 
-## 📌 Insights & Conclusions
+##  Insights & Conclusions
 
 - 🔍 **Concentration of Sales**: A small set of products contributes to the majority of revenue.
 - 📅 **Seasonal Trends**: Sales peak during certain months, which helps in planning marketing campaigns.
