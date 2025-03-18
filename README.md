@@ -94,9 +94,9 @@ GROUP BY order_month;
 
 ##  Insights & Conclusions
 
-- 🔍 **Concentration of Sales**: A small set of products contributes to the majority of revenue.
-- 📅 **Seasonal Trends**: Sales peak during certain months, which helps in planning marketing campaigns.
-- 🌍 **Regional Preferences**: Different regions prefer different product types – useful for inventory planning.
-- 📊 **Year-over-Year Comparison**: 2023 saw a growth in sales compared to 2022 in most months.
+-  **Concentration of Sales**: A small set of products contributes to the majority of revenue.
+-  **Seasonal Trends**: Sales peak during certain months, which helps in planning marketing campaigns.
+-  **Regional Preferences**: Different regions prefer different product types – useful for inventory planning.
+-  **Year-over-Year Comparison**: 2023 saw a growth in sales compared to 2022 in most months.
 
 ---
